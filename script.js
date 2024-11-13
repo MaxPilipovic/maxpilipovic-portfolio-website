@@ -14,3 +14,4 @@ function toggleMenu() {
   if (darkModeButton) {
     darkModeButton.addEventListener('click', toggleDarkMode);
   }
+  

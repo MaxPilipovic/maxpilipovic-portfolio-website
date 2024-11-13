@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Max Pilipovic</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -15,7 +16,6 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#blogs">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
           <button id="dark-mode-toggle" class="btn">☀️</button>
         </ul>
@@ -32,7 +32,6 @@
           <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
             <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
         </div>
@@ -44,7 +43,7 @@
         <div class="section__text">
           <p class="section__text__p1">Hello, I'm</p>
           <h1 class="title">Max Pilipovic</h1>
-          <p class="section__text__p2">Software Developer</p>
+          <p class="section__text__p2"><span class="element"></span></p>
           <div class="btn-container">
             <button
               class="btn btn-color-2"
@@ -326,7 +325,6 @@
             <ul class="nav-links">
               <li><a href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
-              <li><a href="#blogs">Blogs</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -334,5 +332,13 @@
         <p>Copyright &#169; 2024 Max Pilipovic. All Rights Reserved.</p>
       </footer>
     <script src="script.js"></script>
+
+    <!-- REACT -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script src="text.js"></script>
+
 </body>
 </html>
