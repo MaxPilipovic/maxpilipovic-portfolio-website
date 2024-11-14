@@ -54,10 +54,10 @@ a {
 }
 
 a:hover {
-  color: #ff7f00;
+  color: #801caf;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: #ff7f00;
+  text-decoration-color: #801caf;
 }
 
 .logo {
@@ -234,7 +234,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: #ff7f00 0.1rem solid;
+  border: #801caf 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -244,7 +244,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: #ff7f00;
+  background: #801caf;
   color: black;
 }
 
@@ -253,7 +253,7 @@ section {
 }
 
 .btn-color-2 {
-  background: #cc6a00;;
+  background: #801caf;
 }
 
 .btn-color-2:hover {
@@ -309,7 +309,7 @@ section {
   flex: 1;
   background: #333;
   border-radius: 2rem;
-  border: #ff7f00 0.1rem solid;
+  border: #801caf 0.1rem solid;
   text-align: center;
 }
 
