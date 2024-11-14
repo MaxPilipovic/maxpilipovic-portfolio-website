@@ -13,6 +13,64 @@ body {
   color: #f0f0f0;
 }
 
+/* LIGHT THEME */
+.light-theme {
+  background-color: #ffffff;
+  color: #1d1d1d;
+}
+
+.light-theme a {
+  color: #1d1d1d;
+}
+
+.light-theme nav {
+  background-color: #ffffff; 
+  color: #1d1d1d;
+}
+
+.light-theme nav a {
+  color: #1d1d1d; 
+}
+
+.light-theme footer {
+  background-color: #ffffff; 
+  color: #1d1d1d;
+}
+
+.light-theme footer a {
+  color: #1d1d1d; 
+}
+
+.light-theme .details-container {
+  background: #ffffff; /* White background for light mode */
+  color: #1d1d1d; /* Dark text color for readability */
+  border-color: #b35fd0; /* Adjusted border color for light theme */
+}
+
+.light-theme .section__text__p1 {
+  color: #1d1d1d; /* Dark text color for readability */
+}
+
+.light-theme .section__text__p2 .element {
+  color: #1d1d1d; /* Darker text color for the span element */
+}
+
+.light-theme .about-details-container {
+  color: #000000;
+}
+
+.light-theme .details-container p {
+  color: #000000; /* Darker paragraph text color */
+}
+
+.light-theme .text-container p {
+  color: #000000; /* Darker paragraph text color */
+}
+
+.light-theme .experience-sub-title {
+  color: #000000;
+}
+
 html {
   scroll-behavior: smooth;
 }
